@@ -1,0 +1,14 @@
+# OSX Setup
+brew install libusb
+gem install blinky
+ 
+# Script for testing
+require 'rubygems'
+require 'blinky'
+ 
+blinky = Blinky.new
+light.building!
+light.success!
+light.failure!
+light.warning!
+light.off!
