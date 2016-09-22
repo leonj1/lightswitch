@@ -1,5 +1,6 @@
 # OSX Setup
 brew install libusb
+brew install coreutils
 gem install blinky
  
 # Script for testing
